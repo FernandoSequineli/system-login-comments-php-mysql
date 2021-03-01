@@ -1,0 +1,167 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0,.04);
+}
+div#width-page {
+  width: 85%;
+  margin: auto;
+
+}
+
+
+/*------------MENU------------*/
+nav{
+  background-color: rgba(123, 104, 238);
+  height: 60px;
+}
+ul{
+  list-style: none;
+  float: right;
+  margin-right: 100px;
+}
+li{
+  display: inline-block;
+  line-height: 60px;
+  padding: 0px 10px;
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+li a:hover{
+  border-bottom: 1px solid white;
+  
+}
+/*------------TITLE------------*/
+
+h1{
+  padding: 70px 0px 20px 0px;
+  font-size: 27pt;
+  line-height: 40pt;
+}
+
+/*------------TEXT------------*/
+
+p.text {
+  font-size: 15pt;
+  color: rgba(0, 0, 0,.7);
+  line-height: 40px;
+  margin: 20px 0px;
+  font-family: 'Microsoft Yahei Light';
+
+}
+/*------------MAIN CONTENT------------*/
+section#content1 {
+  width: 60%;
+  box-sizing: border-box;
+  float: left;
+}
+img{
+  width: 100%;
+}
+/*------------FORM------------*/
+h2{
+  font-family: 'Microsoft Yahei Light';
+  line-height: 80px;
+  margin-bottom: 10px;
+}
+
+form img{
+  width: 50px;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+textarea{
+  height: 100px;
+  width: 84.1%;
+  border: none;
+  padding: 7px;
+  font-size: 14pt;
+  margin: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+  display: block;
+  float: left;
+}
+input[type=submit]{
+  font-family: arial black;
+  width: 220px;
+  height: 52px;
+  background-color: white;
+  color: rgb(123, 104, 238);
+  border: 2px solid rgb(123, 104, 238);
+  cursor: pointer;
+  display: block;
+  float: right;
+}
+input[type=submit]:hover {
+  background-color:  rgb(123, 104, 238);
+  color: white;
+}
+
+/*----------------COMMENT AREA --------------*/
+.comment-area {
+  box-sizing: border-box;
+  border-bottom: 1px solid grey;
+  clear: both;
+  padding: 10px;
+}
+.comment-area img {
+  width: 50px;
+  float: left;
+  padding: 10px;
+}
+.comment-area h3{
+  float: left;
+  color: rgb(0, 0green, 139);
+  font-size: 12pt;
+  padding: 5px 10px 5px 0px;
+}
+.comment-area h4{
+  font-size: 10pt;
+  color: rgba(0, 0, 0,.6);
+  line-height: 30px;
+}
+.comment-area h4 a{
+  color: black;
+}
+.comment-area p{
+  line-height: 25px;
+
+}
+/*-----------SIDE CONTENT------------*/
+section#content2, section#content3{
+  width: 40%;
+  box-sizing: border-box;
+  float: left;
+}
+section#content2 div, section#content3 div {
+  width: 70%;
+  background-color: rgba(0, 0, 0,.02);
+  border: 1px solid rgba(0, 0, 0,.1);
+  padding: 60px 20px;
+  margin: 50px auto 0px auto;
+}
+section#content2 img{
+  width: 75%;
+  display: block ;
+  margin: auto;
+}
+section#content2 p, section#content3 p{
+  width: 75%;
+  font-family: 'Microsoft Yahei Light';
+  color: rgba(0, 0, 0,.8);
+  text-align: center;
+  line-height: 20pt;
+  margin: 20px auto;
+}
+section#content3 h5 {
+  font-family: 'Microsoft Yahei Light';
+  font-size: 16pt;
+  text-align: center;
+}
