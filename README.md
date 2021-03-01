@@ -11,7 +11,6 @@
 </p>
 <br>
 
-<br>
 
 <p align="center">
 <img width="75%" src="https://github.com/FernandoSequineli/system-login-comments-php-mysql/blob/master/readme/Screenshot%202021-03-01%20at%2010.08.46.png"/>
