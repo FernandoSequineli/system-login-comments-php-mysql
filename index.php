@@ -5,12 +5,12 @@
     {
 
       $us = new User("projeto_comentarios", "localhost", "root", "");
-      $informations = $us->searchData($_SESSION['id_user']);
+      $information = $us->searchData($_SESSION['id_user']);
     }elseif(isset($_SESSION['id_master']))
     {
 
       $us = new User("projeto_comentarios", "localhost", "root", "");
-      $informations = $us->searchData($_SESSION['id_master']);
+      $information = $us->searchData($_SESSION['id_master']);
     }
 ?>
 
@@ -36,7 +36,7 @@
 
       <li><a href="discussion.php">Discussions</a></li>
       <?php 
-              if(isset($informations))
+              if(isset($information))
               { ?>
                 <li><a href="logout.php">Log out</a></li>
       <?php   }else
@@ -52,7 +52,7 @@
           <h2>
               <?php 
               echo "Hello! ";
-              echo $informations['name'];
+              echo $information['name'];
               echo ", Welcome!";
               ?>
           </h2>
