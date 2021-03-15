@@ -62,7 +62,6 @@
     <h5>Project Comments ;)</h5>
     <img src="images/image1.jpg">
   </div>
-  
-  
+    
 </body>
 </html>
