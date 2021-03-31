@@ -55,7 +55,6 @@ if(isset($_POST['name']))
             <p class="msg">passwords does not match!</p>
       <?php }  
 
-
     }else
         { ?>
         <p class="msg">fill all the fields!</p>
