@@ -55,14 +55,8 @@
       {
          echo "No users registered yet";
       }
-    ?>
-
-
-    
-    
+    ?>   
   </table>
-
-
 
 </body>
 </html>
