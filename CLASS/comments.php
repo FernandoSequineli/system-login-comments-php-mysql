@@ -48,7 +48,6 @@ Class User{
             $cmd->bindValue(":id_user", $id_user);
             $cmd->execute();
         }
-
     } 
 
     public function insertComment($id_people, $comment)
