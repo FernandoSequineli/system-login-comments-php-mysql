@@ -137,7 +137,6 @@
         header("Location: discussion.php");
     }
 ?>
-
 <?php
 
     if(isset($_POST['text']))
