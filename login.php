@@ -44,6 +44,5 @@
       { ?>
          <p class="msg">Fill all the fields!</p>
     <?php } 
-
   }
 ?>
