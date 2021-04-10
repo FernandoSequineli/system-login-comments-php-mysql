@@ -38,7 +38,7 @@
           }else
           { ?>
               <p class="msg">Email and/or password incorrects</p>
-    <?php }
+     <?php }
 
       }else
       { ?>
