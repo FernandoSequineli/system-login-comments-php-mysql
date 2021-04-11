@@ -151,5 +151,4 @@
       }
       header("Location: discussion.php");
     }
-
 ?>
