@@ -60,7 +60,6 @@
   <div id="index">
     <h5>Project Comments ;)</h5>
     <img src="images/image1.jpg">
-  </div>
-    
+  </div>    
 </body>
 </html>
